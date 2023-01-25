@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Grocery</title>
+  <link href="css.css" rel="stylesheet" type="text/css" />
+  <script src="js.js"></script>
+</head>
+
+<body onload = "initialize();">
+  <div class = "body">
+    <h class = "name">Shop Lift Up</h>
+    <img src = "logo.jpg" height="120px" width="120px"/>
+  </div>
+  
+  <h2 class = "title">Grocery List</h2>
+  
+  <div id = "groceryList" class = "groceryListCss"></div>
+</br>
+
+  <form id = "inputform">
+    <textarea name = "groceryinput"></textarea>
+  </form> 
+
+  <br /> <br/>
+  <button class = "button" onclick = "add(input.groceryinput.value);">Add</button>
+  <button class = "button" onclick = "deleteIt(input.groceryinput.value)";>Delete</button>
+  <button class = "button" onclick = "Up(input.groceryinput.value);">Up</button>
+  <button class = "button" onclick = "Down(input.groceryinput.value);">Down</button>
+  
+</body>
+
+</html>

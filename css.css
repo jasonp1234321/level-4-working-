@@ -1,0 +1,44 @@
+html, body {
+    text-align: center;
+  }
+  
+  .body{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .name{
+    font-size: 30pt;
+    color: red;
+    font-family: 'Brush Script MT';
+    font-weight: bold;
+  }
+  
+  h2{
+    font-size: 40pt;
+    color: red;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .groceryListCss{
+    font-family: Rockwell, sans-serif;
+    font-size: 20pt;
+    color: red;
+    border-radius: 5%;
+  }
+  
+  .button{
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 27px;
+    color: white;
+    padding: 13px 30px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .button:hover {
+    background-color: black;
+  }
